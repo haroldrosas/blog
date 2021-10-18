@@ -147,6 +147,21 @@ body {
     bottom: 0;
     max-width: 450px;
 }
+.hero_image1{
+    max-width: 750px;
+    max-height: 450px;
+    position: relative;
+    opacity: 0.7;
+    border-radius: 2em;
+}
+.hero_image1:hover{
+    max-width: 750px;
+    max-height: 450px;
+    position: relative;
+    opacity: 1;
+}
+
+}
 .modal{
     position: fixed;
     top: 0;
