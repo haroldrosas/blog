@@ -1,7 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;700&display=swap');
 
- 
 * { 
     margin: 0; 
     padding: 0; 
@@ -24,8 +23,38 @@ body {
     /*background: black;*/
     position: fixed;
     z-index: -1;
+    
 }
 
+.slide{
+ 
+    max-width: 70vh;
+    margin: auto;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    z-index: 100;
+    font-family: 'Urbanist', sans-serif;
+
+}
+.card{
+z-index: 100;
+}
+.card:hover{
+    background-color:rgba(8, 7, 8, 0.467);
+    ;
+    
+    border-radius: 1em;
+}
+.slide  img{
+    border-radius: 1em;
+    margin-top: -2em;
+    margin-bottom: 4em;
+    max-width: 70vh;
+    margin: auto;
+
+    height: 70vh;
+    z-index: 100;
+}
 .container{
     width: 90%;
     max-width: 1200px;
@@ -34,7 +63,31 @@ body {
     
 }
 
-
+.divvideo{
+ margin: auto;
+    
+}
+.gradient{
+ background-blend-mode: soft-light,screen;
+ 
+}
+.video{
+    pointer-events: active;
+    margin: auto;
+  max-width: 90%;
+    margin-top: -1em;
+    margin-bottom: +2em;
+    border-radius: 2em;
+    grid-template-rows: max-content 1fr;
+    justify-content: space-between;
+    display: grid;
+    justify-content: space-between;
+    grid-auto-flow: column;
+    gap: 1em;
+    align-items: center;
+        
+z-index: 100;
+}
 .hero{
     
     /*background-image: linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);
@@ -111,6 +164,7 @@ body {
     align-self: end;
 }
 .hero_title{
+    margin: auto;
     font-size: 2.6rem;
     letter-spacing: 2px;
 }
@@ -148,9 +202,10 @@ body {
     max-width: 450px;
 }
 .hero_image1{
+    
     max-width: 750px;
     max-height: 450px;
-    position: relative;
+    
     opacity: 0.7;
     border-radius: 2em;
 }
@@ -170,7 +225,7 @@ body {
     bottom: 0;   
     background-color: #111111bd;
     display: flex;
-    z-index: 99;
+    z-index: 120;
     opacity: 0;
     pointer-events: none;
     transition: opacity .5s .6s;
@@ -203,6 +258,7 @@ body {
 }
 
 .modal_title{
+    margin-left: 1em;
     font-size: 2.5rem;
 }
 .modal_paragraph{
